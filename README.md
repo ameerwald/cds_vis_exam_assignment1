@@ -1,7 +1,7 @@
 
 # Assignment 1 - Building a simple image search algorithm
 
-This assignment can be found at my github [repo](https://github.com/ameerwald/cds_lang_exam_assignment1).
+This assignment can be found at my github [repo](https://github.com/ameerwald/cds_vis_exam_assignment1).
 
 The dataset is a collection of over 1000 images of flowers, sampled from 17 different species. The dataset comes from the Visual Geometry Group at the University of Oxford, and full details of the data can be found [here](https://www.robots.ox.ac.uk/~vgg/data/flowers/17/).
 
