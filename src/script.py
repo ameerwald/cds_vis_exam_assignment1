@@ -8,10 +8,10 @@ import pandas as pd
 from imutils import jimshow
 from imutils import jimshow_channel
 import matplotlib.pyplot as plt
+
 # load in an image 
 rando_flower = os.path.join("data", "flowers", "image_0244.jpg")
 image = cv2.imread(rando_flower)
-jimshow(image, "Rando Flower")
 
 def plot_histogram(filename):
     # set data path
@@ -40,8 +40,6 @@ def plot_histogram(filename):
         # Set limits of x-axis
         plt.xlim([0, 256])
 
-# show the chosen file 
-plot_histogram("image_0244.jpg")
 
 # function to create histogram for an image and normalizes it so it's ready for comparison
 def compare_hist (path):
