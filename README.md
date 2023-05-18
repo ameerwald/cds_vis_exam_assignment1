@@ -56,6 +56,17 @@ bash run.sh
 This has been tested on an ubuntu system on ucloud and therefore could have issues when run another way.
 
 ## Discussion of Results 
+In the ```out``` folder is a .csv file with this table. Shows the file name of the most similiar images which is based on their chi value, with smaller values indicating increased similarity.    
+|File|Chi|
+|---|---|
+|image_0621.jpg|208.85|
+|image_0139.jpg|224.83|
+|image_0550.jpg|229.79|
+|image_1298.jpg|232.57|
+|image_0142.jpg|233.88|
+
+
+
 Here is the original flower I picked, I believe it is a bluebell or wild hyacinth. 
 ![og](data/flowers/image_0244.jpg)
 
