@@ -19,7 +19,7 @@ For this assignment, we were asked to use  ```OpenCV``` to design a simple image
 - Extract colour histograms for all of the **other* images in the data
 - Compare the histogram of the chosen image to all of the other histograms 
   - For this, use the ```cv2.compareHist()``` function with the ```cv2.HISTCMP_CHISQR``` metric
-- Find the five images which are most simlar to the target image
+- Find the five images which are most similar to the target image
   - Save a CSV file to the folder called ```out```, showing the five most similar images and the distance metric:
 
 |Filename|Distance]
@@ -35,8 +35,8 @@ For this assignment, we were asked to use  ```OpenCV``` to design a simple image
 | ------------- |:-------------:
 | Data      | The flowers dataset      
 | Notes  | Jupyter notebook with notes, used to create .py script  
-| Out  | List of the 5 most similiar flowers to my chosen flower in a .csv file     
-| Src  | Py script for the image search alogorithm  
+| Out  | List of the 5 most similar flowers to my chosen flower in a .csv file     
+| Src  | Py script for the image search algorithm  
 | Utils  | Taken from class notebook, using two functions to show images 
 
 ## To run the scripts 
@@ -56,7 +56,7 @@ bash run.sh
 This has been tested on an ubuntu system on ucloud and therefore could have issues when run another way.
 
 ## Discussion of Results 
-In the ```out``` folder is a .csv file with this table. Shows the file name of the most similiar images which is based on their chi value, with smaller values indicating increased similarity.    
+In the ```out``` folder is a .csv file with this table. Shows the file name of the most similar images which is based on their chi value, with smaller values indicating increased similarity.    
 |File|Chi|
 |---|---|
 |image_0621.jpg|208.85|
